@@ -1,0 +1,21 @@
+.toggleButton{
+    justify-self: center;
+    flex-direction: column;
+    /* height: 24px; */
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.openButton{
+    padding-top: 0.5vh;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media screen and (min-width: 1000px) {
+    .menu{
+        display: none;
+    }
+}

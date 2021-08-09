@@ -1,0 +1,75 @@
+.sideDrawer{
+    height: 100%;
+    background: linear-gradient(rgb(102, 167, 219, 0.9), rgba(255, 255, 255, 0.9));
+    padding-left: 8px;
+    box-shadow: 1px 0px 5px rgba(106, 194, 245, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 50%;
+    max-width: 250px;
+
+}
+
+#menu{ 
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.3rem;
+    margin-top: 5px;
+    margin-left: 83%;
+    cursor: pointer;
+}
+
+.sideLinks{
+    padding: 25%;
+    padding-top: 50%;
+      font-family: 'Gowun Dodum', sans-serif;
+      
+}
+
+.sideHome{
+    margin-left: 30px;
+    margin-bottom: 20%;
+    margin-top: 40%;  
+    color: rgba(0, 0, 0, 1);
+}
+
+.sideHome:hover{
+  color: royalblue; 
+  transition: 0.5s ease-in-out;
+}
+
+.sideHome:active{
+    color: rgb(255, 255, 255); 
+  }
+
+.side{
+    display: block;
+    padding: 5%;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.side:hover{
+    color: royalblue;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.2);
+    font-weight: 500;
+}
+
+.side:active{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+
+@media screen and (min-width: 1000px){
+    #menuDiv{
+        display: none;
+    }
+.sideDrawer{
+    display: none;
+}
+}

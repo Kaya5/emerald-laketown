@@ -33,15 +33,15 @@ const clickDrawerClose = () => {
         <Navbar drawerToggle={toggleDrawerOpen}/>
         {sideDrawer}
       <Switch>
-          <Route exact path="/" render={() => <Home />} />
-          <Route exact path="/bungalow" render={()=><Bungalow/>} />
-          <Route exact path="/duplex" render={()=><Duplex/>} />
-          <Route exact path="/terrace" render={()=><Terrace/>} />
-          <Route exact path="/apartment" render={()=><Apartment/>} />
-          <Route exact path="/villa" render={()=><Villa/>} />
-          <Route exact path="/hotel" render={()=><Hotel/>} />
-          <Route exact path="/facilities" render={() => <Facilities />} />
-          <Route exact path="*" render={()=><Home/>} />
+          <Route  path="/" render={() => <Home />} />
+          <Route  path="/bungalow" render={()=><Bungalow/>} />
+          <Route  path="/duplex" render={()=><Duplex/>} />
+          <Route  path="/terrace" render={()=><Terrace/>} />
+          <Route  path="/apartment" render={()=><Apartment/>} />
+          <Route  path="/villa" render={()=><Villa/>} />
+          <Route  path="/hotel" render={()=><Hotel/>} />
+          <Route  path="/facilities" render={() => <Facilities />} />
+          <Route  path="*" render={()=><Home/>} />
        </Switch>
       </Router>
      

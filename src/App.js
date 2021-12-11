@@ -29,19 +29,19 @@ const clickDrawerClose = () => {
   
   return (
     <div className="App">
-      <Router>
+     <Router basename="/">
         <Navbar drawerToggle={toggleDrawerOpen}/>
         {sideDrawer}
       <Switch>
-          <Route  path="/" render={() => <Home />} />
-          <Route  path="/bungalow" render={()=><Bungalow/>} />
-          <Route  path="/duplex" render={()=><Duplex/>} />
-          <Route  path="/terrace" render={()=><Terrace/>} />
-          <Route  path="/apartment" render={()=><Apartment/>} />
-          <Route  path="/villa" render={()=><Villa/>} />
-          <Route  path="/hotel" render={()=><Hotel/>} />
-          <Route  path="/facilities" render={() => <Facilities />} />
-          <Route  path="*" render={()=><Home/>} />
+          <Route exact path="/" render={() => <Home />} />
+          <Route path="/bungalow" render={()=><Bungalow/>} />
+          <Route path="/duplex" render={()=><Duplex/>} />
+          <Route path="/terrace" render={()=><Terrace/>} />
+          <Route path="/apartment" render={()=><Apartment/>} />
+          <Route path="/villa" render={()=><Villa/>} />
+          <Route path="/hotel" render={()=><Hotel/>} />
+          <Route path="/facilities" render={() => <Facilities />} />
+          <Route path="*" render={()=><Home/>} />
        </Switch>
       </Router>
      

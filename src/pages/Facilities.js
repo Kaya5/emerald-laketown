@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "../styles/Facilities.css";
 import Button from "@material-ui/core/Button";
 import splash from "../assets/splash.mp4";
@@ -27,13 +29,15 @@ export default function Facilities() {
       </main>
       <div className="backDiv">
         <Button
-          href="/"
           size="large"
           color="primary"
           variant="contained"
           className="back"
         >
+          <Link to='/' className='button-text'>
           Back
+          </Link>
+       
         </Button>
       </div>
     </div>

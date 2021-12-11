@@ -57,3 +57,9 @@ img{
         margin: -20px auto -20px auto;
     }
 }
+
+.button-text{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}

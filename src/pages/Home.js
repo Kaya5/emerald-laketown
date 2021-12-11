@@ -22,16 +22,17 @@ function Home() {
           </p>
         </div>
         <div className="enter">
-          <Button
-            Link to="/facilities"
-            variant="contained"
+          <Button variant="contained"
             color="primary"
             size="small"
-            className="enterLink"
+            className="enterLink">
+          <Link to="/facilities" className='button-text'
+            
           >
             <Grid container direction="row">
               Facilities
             </Grid>
+          </Link>
           </Button>
         </div>
       </div>

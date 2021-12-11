@@ -1,7 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Paper } from "@material-ui/core";
 import "../styles/HouseTypes.css";
-
 import { Button } from "@material-ui/core";
 import Image from "../components/Image";
 import PageTitle from '../components/PageTitle'; 
@@ -18,8 +18,15 @@ function Bungalow() {
       <Image title="Central location" link="https://bit.ly/3r0hput" />
 
       <div className="homeLinkDiv">
-        <Button href="/" size="large" color="primary" variant='outlined' className="homeLink">
-          Go Home
+        <Button
+          size="large"
+          color="primary"
+          variant="outlined"
+          className="homeLink"
+        >
+          <Link to="/" className="home-button-text">
+            Go Home
+          </Link>
         </Button>
       </div>
     </div>

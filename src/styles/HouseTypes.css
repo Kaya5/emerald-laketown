@@ -58,4 +58,7 @@ body{
  .homeLink:hover{
     font-weight: 600;
  }
-
+.home-button-text{
+    font-weight: 600;
+    text-decoration: none;
+}

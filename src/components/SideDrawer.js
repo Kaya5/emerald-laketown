@@ -28,23 +28,23 @@ function SideDrawer(props) {
             Apartment
           </Link>
 
-          <Link exact to="/bungalow" className="side" onClick={props.closeMenu}>
+          <Link to="/bungalow" className="side" onClick={props.closeMenu}>
             Bungalow
           </Link>
 
-          <Link exact to="/duplex" className="side" onClick={props.closeMenu}>
+          <Link to="/duplex" className="side" onClick={props.closeMenu}>
             Duplex
           </Link>
 
-          <Link exact to="/hotel" className="side" onClick={props.closeMenu}>
+          <Link to="/hotel" className="side" onClick={props.closeMenu}>
             Hotel
           </Link>
 
-          <Link exact to="/terrace" className="side" onClick={props.closeMenu}>
+          <Link to="/terrace" className="side" onClick={props.closeMenu}>
             Terrace
           </Link>
 
-          <Link exact to="/villa" className="side" onClick={props.closeMenu}>
+          <Link to="/villa" className="side" onClick={props.closeMenu}>
             Villa
           </Link>
         </div>
